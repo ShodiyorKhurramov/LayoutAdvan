@@ -1,0 +1,161 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <androidx.core.widget.NestedScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:orientation="vertical">
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="top|center_horizontal"
+                android:layout_marginTop="20dp"
+                android:background="@drawable/edit_text_bottom_border"
+                android:hint="EditText Bottom Border "
+                android:padding="10dp"
+                android:textSize="25sp" />
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="top|center_horizontal"
+                android:layout_marginTop="20dp"
+                android:background="@drawable/edit_text_border_color"
+                android:hint="EditText border color"
+                android:padding="10dp"
+                android:textSize="25sp" />
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="top|center_horizontal"
+                android:layout_marginTop="20dp"
+                android:background="@drawable/edit_text_border_style"
+                android:hint="EditText border style"
+                android:padding="10dp"
+                android:textSize="25sp" />
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="top|center_horizontal"
+                android:layout_marginTop="20dp"
+                android:background="@drawable/edit_text_raunded_border"
+                android:hint="EditText Rounded Corners Border"
+                android:padding="10dp"
+                android:textSize="25sp" />
+
+            <!--Custom Button-->
+            <Button
+                android:id="@+id/b_task2"
+                android:layout_width="250dp"
+                android:layout_height="50dp"
+                android:layout_marginTop="20dp"
+                android:background="@drawable/button_gradient"
+                android:text="TextInputLayout task2_3_4"
+                android:textAllCaps="false"
+                android:textSize="13dp"
+                app:backgroundTint="@null" />
+
+            <Button
+                android:id="@+id/b_task5"
+                android:layout_width="250dp"
+                android:layout_height="50dp"
+                android:layout_marginTop="20dp"
+                android:background="@drawable/button_rounded"
+                android:text="Search HashTAg task5"
+                android:textAllCaps="false"
+                android:textSize="13dp"
+                app:backgroundTint="@null" />
+
+            <Button
+                android:id="@+id/b_task6"
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:layout_marginTop="20dp"
+                android:textAllCaps="false"
+                android:textSize="16sp"
+                android:background="@drawable/button_circle"
+                android:text="Search URL"
+                app:backgroundTint="@null" />
+
+            <Button
+
+                android:layout_width="200dp"
+                android:layout_height="50dp"
+                android:layout_marginTop="20dp"
+                android:background="@drawable/button_borders"
+                android:text="button raunded"
+                app:backgroundTint="@null" />
+
+            <Button
+                android:layout_width="200dp"
+                android:layout_height="50dp"
+                android:layout_marginTop="20dp"
+                android:background="@drawable/button_dashed"
+                android:text="button dashed"
+                android:textColor="@color/black"
+                app:backgroundTint="@null" />
+
+            <Button
+                android:layout_width="200dp"
+                android:layout_height="50dp"
+                android:layout_marginTop="20dp"
+                android:background="@drawable/button_gradient_ratate"
+                android:text="button rotate"
+                android:textColor="@color/black"
+                app:backgroundTint="@null" />
+
+            <RelativeLayout
+                android:layout_width="106dp"
+                android:layout_height="106dp"
+                android:layout_marginTop="20dp">
+
+                <androidx.cardview.widget.CardView
+                    android:layout_width="100dp"
+                    android:layout_height="100dp"
+                    app:cardCornerRadius="50dp">
+
+                    <ImageView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:scaleType="centerCrop"
+                        android:src="@drawable/image_cofee" />
+                </androidx.cardview.widget.CardView>
+            </RelativeLayout>
+
+            <com.google.android.material.imageview.ShapeableImageView
+                android:layout_width="206dp"
+                android:layout_height="206dp"
+                android:adjustViewBounds="true"
+                android:padding="5dp"
+                android:scaleType="centerCrop"
+                android:src="@drawable/image_cofee"
+                app:shapeAppearanceOverlay="@style/circle"
+                app:strokeColor="@color/purple_500"
+                app:strokeWidth="3dp" />
+
+            <TextView
+                android:id="@+id/tv_text"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="24sp" />
+
+        </LinearLayout>
+
+    </androidx.core.widget.NestedScrollView>
+
+
+</LinearLayout>
