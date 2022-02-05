@@ -1,14 +1,10 @@
-package com.example.layoutadvanced
+package com.example.layoutadvanced.activity
 
 import android.content.Intent
-import android.graphics.Color
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
-import android.text.Spannable
-import android.text.SpannableString
-import android.text.style.ForegroundColorSpan
 import android.widget.Button
-import android.widget.TextView
+import com.example.layoutadvanced.R
 
 class MainActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
@@ -37,11 +33,11 @@ class MainActivity : AppCompatActivity() {
         startActivity(intent)
     }
    fun openTask5Activitty(){
-        val intent=Intent(this,Task5Activity::class.java)
+        val intent=Intent(this, Task5Activity::class.java)
        startActivity(intent)
     }
     fun openTask6Activitty(){
-        val intent=Intent(this,Task6Activity::class.java)
+        val intent=Intent(this, Task6Activity::class.java)
         startActivity(intent)
     }
 

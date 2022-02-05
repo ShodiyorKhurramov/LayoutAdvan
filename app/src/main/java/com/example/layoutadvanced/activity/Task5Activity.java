@@ -1,4 +1,4 @@
-package com.example.layoutadvanced;
+package com.example.layoutadvanced.activity;
 
 import androidx.appcompat.app.AppCompatActivity;
 
@@ -13,6 +13,8 @@ import android.text.style.URLSpan;
 import android.view.View;
 import android.widget.Button;
 import android.widget.TextView;
+
+import com.example.layoutadvanced.R;
 
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;

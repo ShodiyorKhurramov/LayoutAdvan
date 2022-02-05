@@ -1,4 +1,4 @@
-package com.example.layoutadvanced;
+package com.example.layoutadvanced.activity;
 
 import androidx.appcompat.app.AppCompatActivity;
 
@@ -8,6 +8,7 @@ import android.text.TextWatcher;
 import android.view.View;
 import android.widget.EditText;
 
+import com.example.layoutadvanced.R;
 import com.google.android.material.button.MaterialButton;
 import com.google.android.material.textfield.TextInputLayout;
 
@@ -70,6 +71,7 @@ public class Task2_3_4Activity extends AppCompatActivity {
             }
 
             @Override
+
             public void afterTextChanged(Editable editable) {
 
             }
